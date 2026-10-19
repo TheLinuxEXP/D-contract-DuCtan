@@ -1,0 +1,52 @@
+{% unless page.thanks %}
+<div class="thanks">
+
+  <hr />
+  
+  <h2>Help support what I do</h2>
+  <p>If you want to keep this website going, please consider <a href="https://patreon.com/thelinuxexperiment">subscribing on Patreon</a>, you will get a bunch of cool advantages in the process, like a weekly podcast and the right to vote on video topics I cover on Youtube!<p>
+
+  <div class="links">
+    <a
+      href="https://www.patreon.com/thelinuxexperiment"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Patreon"
+    >
+      {% include svg/patreon.svg %}
+    </a>
+    <a
+      href="https://www.paypal.me/thelinuxexp"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Patreon"
+    >
+      {% include svg/paypal.svg %}
+    </a>
+  </div>
+  <hr />
+</div>
+{% endunless %}
+
+{% if page.sponsor.name %}
+  <div class="sponsor">
+    {% if page.sponsor.link && page.sponsor.image %}
+      <a href="{{ page.sponsor.link }}" rel="noreferrer nofollow noopener" target="_blank">
+    {% endif %}
+    {% if page.sponsor.image %}
+      <img
+        src="{{ page.sponsor.image }}"
+        alt="{{ page.sponsor.name }}"
+        {% if page.sponsor.image-2x %}
+          srcset="{{ page.sponsor.image-2x }} 2x"
+        {% endif %}
+      />
+    {% endif %}
+    {% if page.sponsor.link  && page.sponsor.image %}</a>{% endif %}
+
+    <p>I'd like to specially thank
+    {% if page.sponsor.link %}
+      <a href="{{ page.sponsor.link }}" rel="noreferrer nofollow noopener" target="_blank">
+    {% endif %}{{ page.sponsor.name }}{% if page.sponsor.link %}</a>{% endif %} for sponsoring this blog post and the associated video. {% if page.sponsor.hook %}{{ page.sponsor.hook }}{% endif %}</p>
+  </div>
+{% endif %}

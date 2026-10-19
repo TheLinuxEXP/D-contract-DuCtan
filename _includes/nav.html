@@ -1,0 +1,24 @@
+<header>
+
+  <nav class="primary">
+    <ul>
+      <li><a href="{{ site.data.header.logo.url }}" class="logomark"{% unless site.data.header.logo.new_tab %} target="_self"{% else %} target="_blank"{% endunless %}>
+        {% include svg/roundedthumb.svg %}
+      </a></li>
+      {% for link in site.data.header.links %}
+      <li><a href="{{ link.url }}"{% if link.new_tab %} target="_blank"{% endif %}>{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <ul>
+      {% for item in site.data.header.icons %}
+      {% capture icon_file %}svg/{{ item.icon }}.svg{% endcapture %}
+      <li><a href="{% if item.url contains '://' or item.url contains 'mailto:' %}{{ item.url }}{% else %}{{ site.baseurl }}{{ item.url }}{% endif %}"{% if item.new_tab %} target="_blank"{% endif %}{% if item.rel != "" and item.rel %} rel="{{ item.rel }}"{% endif %} title="{{ item.title }}">
+        {% include {{ icon_file }} %}
+      </a></li>
+      {% endfor %}
+    </ul>
+
+  </nav>
+
+</header>
