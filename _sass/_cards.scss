@@ -1,19 +1,17 @@
+%chamfer {
+  // top-right and bottom-left corners cut at 45 degrees
+  clip-path: polygon(0 0, calc(100% - var(--ddc-chamfer)) 0, 100% var(--ddc-chamfer), 100% 100%, var(--ddc-chamfer) 100%, 0 calc(100% - var(--ddc-chamfer)));
+}
+
 %card-outer {
-  border-radius: 0.25rem;
+  @extend %chamfer;
   overflow: hidden;
 }
 
 %card-inner {
-  background-color: var(--silver-100);
-  border-radius: 0.25rem;
-  box-shadow:
-    0 0 0 1px rgba(0, 0, 0, 0.05),
-    0 3px 3px rgba(0, 0, 0, 0.22);
+  @extend %chamfer;
+  background-color: var(--ddc-panel);
   overflow: hidden;
-
-  @media (prefers-color-scheme: dark) {
-    background-color: var(--silver-900);
-  }
 }
 
 .card {

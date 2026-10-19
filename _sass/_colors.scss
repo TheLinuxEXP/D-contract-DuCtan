@@ -77,23 +77,47 @@
   --tle-red:#ED1852;
   --tle-yellow:#FCCFB4;
 
-  --bg-color: white;
-  --fg-color: var(--black-500);
-  --accent-color: var(--blueberry-700);
-  --header-bg-color: var(--blueberry-300);
-  --header-fg-color: var(--silver-100);
-  --secondary-bg-color: #f5f5f5; // Instead of making up a Silver 200
-  --secondary-fg-color: var(--black-300);
-  --warning-bg-color: var(--banana-300);
-  --warning-fg-color: var(--black-900);
+  // Décontracté du C'Tan design system (light theme)
+  --ddc-surface: #f9f9f7;
+  --ddc-panel: #f0f0ed;
+  --ddc-panel-2: #e5e5e2;
+  --ddc-line: #c4c4c0;
+  --ddc-line-strong: #85858b;
+  --ddc-ink: #1e1e22;
+  --ddc-muted: #5f5f66;
+  --ddc-head: #222226;
+  --ddc-on-head: #fafaf8;
+  --ddc-accent: #c81a22;
+  --ddc-accent-lt: #f45454;
+  --ddc-chamfer: 14px;
+
+  --bg-color: var(--ddc-surface);
+  --fg-color: var(--ddc-ink);
+  --accent-color: var(--ddc-accent);
+  --header-bg-color: var(--ddc-head);
+  --header-fg-color: var(--ddc-on-head);
+  --secondary-bg-color: var(--ddc-panel);
+  --secondary-fg-color: var(--ddc-muted);
+  --warning-bg-color: var(--ddc-panel-2);
+  --warning-fg-color: var(--ddc-ink);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-color: var(--black-700);
-    --fg-color: var(--silver-300);
-    --accent-color: var(--blueberry-300);
-    --secondary-bg-color: var(--black-500);
-    --secondary-fg-color: var(--silver-300);
+    --ddc-surface: #262626;
+    --ddc-panel: #303030;
+    --ddc-panel-2: #3b3b3b;
+    --ddc-line: #5a5a5a;
+    --ddc-line-strong: #8c8c90;
+    --ddc-ink: #ffffff;
+    --ddc-muted: #bdbdc0;
+    --ddc-head: #141416;
+    --ddc-accent: #f57373;
+
+    --bg-color: var(--ddc-surface);
+    --fg-color: var(--ddc-ink);
+    --accent-color: var(--ddc-accent);
+    --secondary-bg-color: var(--ddc-panel);
+    --secondary-fg-color: var(--ddc-muted);
   }
 }

@@ -3,7 +3,7 @@
   box-shadow:
     0 0 0 1px rgba(0, 0, 0, 0.05),
     0 3px 3px rgba(0, 0, 0, 0.22);
-  border-radius: 0.5em;
+  border-radius: 0;
   font-family: var(--ui-font);
   margin: 0 auto 2em;
   max-width: 50ch;
@@ -30,7 +30,7 @@
 
   img,
   video {
-    border-radius: 0.5em;
+    border-radius: 0;
   }
 
   header {
