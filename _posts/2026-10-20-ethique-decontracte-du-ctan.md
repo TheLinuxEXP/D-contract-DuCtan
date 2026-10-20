@@ -2,8 +2,9 @@
 title: "Ethique de la chaîne et du contenu"
 description: "Un petit tour de nos principes et de nos opinions sur les partenariats, l'argent, l'IA et autres considérations morales"
 author: nick
+image: /images/posts/ethique-decontracte-du-ctan/image-3.webp
 date: 2026-10-19
-last_modified_at: "2026-10-20 18:26:15 +0200"
+last_modified_at: "2026-10-20 18:31:13 +0200"
 ---
 
 Comme je l'ai fait pour le [site web de ma chaîne Linux ](https://thelinuxexp.com), je voulais poser quelque part les principes qui gouvernent la manière dont on fonctionne sur cette chaîne Décontracté du C'Tan et ce [site internet](/nouveau-site-decontracte/). Nous savons tous que sur le web, il y a pas mal de partenariats non affichés, de gentillesse forcée pour ne pas perdre certains accès à une entreprise, ou de critique surdosée pour faire des clics, dans la sphère Warhammer comme partout ailleurs. Voici donc nos positions !
@@ -65,7 +66,7 @@ Récupérer les chapitres dans une vidéo peut prendre 10 minutes de saisie manu
 
 <figure markdown="1">
 
-![](/images/posts/ethique-decontracte-du-ctan/image-5.png)
+![Games Workshop le dit lui-meme](/images/posts/ethique-decontracte-du-ctan/image-5.png)
 
 <figcaption>Games Workshop le dit lui-meme</figcaption>
 </figure>
