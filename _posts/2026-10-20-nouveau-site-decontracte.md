@@ -3,8 +3,8 @@ title: "Décontracté du Site Internet !"
 description: "Un nouveau site pour vous proposer d'autres formats de contenu autour de Warhammer 40K et du hobby"
 author: nick
 image: /images/posts/nouveau-site-decontracte/decontraction.png
-date: 2026-10-20
-last_modified_at: "2026-10-20 14:56:00 +0200"
+date: 2026-10-19
+last_modified_at: "2026-10-20 16:02:38 +0200"
 ---
 
 Salut à tous, c'est Nico et Nico, et bienvenue sur ce petit site sans grande prétention !

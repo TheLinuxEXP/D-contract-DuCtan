@@ -1,7 +1,7 @@
 # Header (top navigation bar). Edited from the local admin, or by hand.
 # icon: name of a file in _includes/svg/ (without .svg)
 logo:
-  url: https://ddctan.fr
+  url: https://decontracte.net
   new_tab: false
 links:
 - title: Vidéos
