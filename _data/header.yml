@@ -10,6 +10,9 @@ links:
 - title: Partenaires
   url: /partenaires/
   new_tab: false
+- title: Ethique
+  url: /ethique-decontracte-du-ctan
+  new_tab: false
 icons:
 - title: RSS Feed
   url: /feed.xml
