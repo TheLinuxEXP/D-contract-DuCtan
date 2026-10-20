@@ -3,7 +3,7 @@
   <nav class="primary">
     <ul>
       <li><a href="{{ site.data.header.logo.url }}" class="logomark"{% unless site.data.header.logo.new_tab %} target="_self"{% else %} target="_blank"{% endunless %}>
-        {% include svg/roundedthumb.svg %}
+        <img src="{{ '/images/logo-small.png' | prepend: site.baseurl }}" alt="Partenaires" width="40" height="40" />
       </a></li>
       {% for link in site.data.header.links %}
       <li><a href="{{ link.url }}"{% if link.new_tab %} target="_blank"{% endif %}>{{ link.title }}</a></li>

@@ -50,18 +50,8 @@
   {% endif %}
 
   <div class="share">
-    <h3>Share</h3>
+    <h3>Partagez</h3>
     {% assign share-url = page.url | prepend: site.baseurl | prepend: site.url %}
-
-    <a
-      href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ share-url }}&via={{ site.twitter }}&original_referer={{ share-url }}"
-      rel="noreferrer nofollow noopener"
-      target="_blank"
-      title="Twitter"
-    >
-      <img src="{{ '/images/twitter.svg' | prepend: site.baseurl }}" alt="Twitter" />
-    </a>
-
     <a
       href="http://www.reddit.com/submit?title={{ page.title }}&url={{ share-url }}"
       rel="noreferrer nofollow noopener"

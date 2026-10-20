@@ -74,10 +74,9 @@
   <meta name="twitter:site" content="@{{ site.twitter }}" />
   <meta name="twitter:creator" content="@{{ site.twitter }}" />
 
-  <link rel="icon" sizes="256x256" href="https://www.gravatar.com/avatar/{{ site.gravatar }}?s=256&d=blank" />
+  <link rel="icon" type="image/png" href="{{ '/images/logo-small.png' | prepend: site.baseurl }}" />
   <meta itemprop="logo" content="https://www.gravatar.com/avatar/{{ site.gravatar }}?s=256&d=blank" />
-  <link rel="shortcut icon" href="/images/favicon.ico">
-  <link rel="apple-touch-icon" href="/images/favicon.ico">
+  <link rel="apple-touch-icon" href="{{ '/images/logo-small.png' | prepend: site.baseurl }}" />
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 

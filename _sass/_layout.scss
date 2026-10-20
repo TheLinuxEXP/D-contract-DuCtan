@@ -99,6 +99,14 @@ article {
           color: var(--fg-color);
           height: 1em;
         }
+
+        // Tipee / partners: small icons
+        img {
+          display: block;
+          height: 40px;
+          width: 40px;
+          object-fit: contain;
+        }
     }
   }
 }

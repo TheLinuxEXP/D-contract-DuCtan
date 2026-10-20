@@ -1,28 +1,23 @@
 # Header (top navigation bar). Edited from the local admin, or by hand.
 # icon: name of a file in _includes/svg/ (without .svg)
 logo:
-  url: https://thelinuxexp.github.io
+  url: https://ddctan.fr
   new_tab: false
 links:
-- title: Linux Videos
-  url: https://www.youtube.com/thelinuxexperiment
+- title: Vidéos
+  url: https://www.youtube.com/@DecontracteduCTan
   new_tab: true
-- title: Ethics
-  url: /Ethics/
-  new_tab: true
+- title: Partenaires
+  url: /partenaires/
+  new_tab: false
 icons:
 - title: RSS Feed
   url: /feed.xml
   icon: rss-square
   rel: ''
   new_tab: true
-- title: Patreon
-  url: https://patreon.com/thelinuxexperiment
-  icon: patreon
-  rel: noopener
-  new_tab: true
-- title: Mastodon
-  url: https://mastodon.social/@thelinuxEXP
-  icon: mastodon
+- title: Tipee
+  url: https://fr.tipeee.com/nico-decontracte-du-ctan
+  icon: appcenter
   rel: ''
   new_tab: true
